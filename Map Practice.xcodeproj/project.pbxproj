@@ -15,6 +15,7 @@
 		52617FC31FB0C06D002CCD34 /* Map_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52617FC21FB0C06D002CCD34 /* Map_PracticeTests.swift */; };
 		52617FCE1FB0C06D002CCD34 /* Map_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52617FCD1FB0C06D002CCD34 /* Map_PracticeUITests.swift */; };
 		52617FDD1FB0C0D3002CCD34 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52617FDC1FB0C0D3002CCD34 /* MapKit.framework */; };
+		52DC8D361FB4FE3500C60BE1 /* SarajevoAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DC8D351FB4FE3500C60BE1 /* SarajevoAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		52617FCD1FB0C06D002CCD34 /* Map_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_PracticeUITests.swift; sourceTree = "<group>"; };
 		52617FCF1FB0C06D002CCD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52617FDC1FB0C0D3002CCD34 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		52DC8D351FB4FE3500C60BE1 /* SarajevoAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SarajevoAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				52617FAD1FB0C06D002CCD34 /* AppDelegate.swift */,
 				52617FAF1FB0C06D002CCD34 /* ViewController.swift */,
+				52DC8D351FB4FE3500C60BE1 /* SarajevoAnnotation.swift */,
 				52617FB11FB0C06D002CCD34 /* Main.storyboard */,
 				52617FB41FB0C06D002CCD34 /* Assets.xcassets */,
 				52617FB61FB0C06D002CCD34 /* LaunchScreen.storyboard */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52617FB01FB0C06D002CCD34 /* ViewController.swift in Sources */,
+				52DC8D361FB4FE3500C60BE1 /* SarajevoAnnotation.swift in Sources */,
 				52617FAE1FB0C06D002CCD34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +528,7 @@
 				52617FD41FB0C06D002CCD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52617FD51FB0C06D002CCD34 /* Build configuration list for PBXNativeTarget "Map PracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				52617FD71FB0C06D002CCD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52617FD81FB0C06D002CCD34 /* Build configuration list for PBXNativeTarget "Map PracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +546,7 @@
 				52617FDA1FB0C06D002CCD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
